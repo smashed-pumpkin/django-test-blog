@@ -1,4 +1,6 @@
 ## Steps for creating a blog site using django:
+Credits: https://tutorial.djangogirls.org/
+
 ### Set up django
 Navigate to the djangogirls dir and create a virutal environment:
 ```
