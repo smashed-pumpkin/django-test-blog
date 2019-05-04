@@ -41,7 +41,7 @@ DATABASES = {
 ### Web server
 Start the web server by running the following and then go to check it out at http://127.0.0.1:8000/:
 ```
-(myvenv) ~/djangogirls$ python manage.py runserver
+(myvenv) ~/djangogirls/mysite $ python manage.py runserver
 ```
 Note that a command window can only run one thing at a time, and the command window you opened earlier is running the web server. 
 
@@ -159,4 +159,10 @@ from . import views
 urlpatterns = [
     path('', views.post_list, name='post_list'),
 ]
+```
+### Views
+Open the **blog/views.py** file, add the following and then save it. Go to http://127.0.0.1:8000/ and see what we've got:
+```
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
 ```
