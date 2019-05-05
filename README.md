@@ -41,7 +41,7 @@ DATABASES = {
 ### Web server
 Start the web server by running the following and then go to check it out at http://127.0.0.1:8000/:
 ```
-(myvenv) ~/djangogirls/mysite $ python manage.py runserver
+(myvenv) ~/djangogirls $ python manage.py runserver
 ```
 Note that a command window can only run one thing at a time, and the command window you opened earlier is running the web server. 
 
